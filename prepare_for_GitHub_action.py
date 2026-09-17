@@ -55,4 +55,4 @@ def gold_price_repeat():
         sheet.append_row([date, hour, price_24, price_21, price_18])
         print('New line')
     else:
-        print('price didn't change')
+        print("price didn't change")
